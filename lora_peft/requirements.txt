@@ -1,0 +1,15 @@
+# 核心依赖 (锁定版本以兼容 PyTorch 2.0.1)
+transformers>=4.44.0
+peft==0.11.1      # 锁定版本以兼容 PyTorch 2.0.1
+accelerate==0.31.0  # 锁定版本以兼容 PyTorch 2.0.1
+datasets>=2.19.0
+
+# Metrics & utils
+numpy>=1.24.0
+nltk>=3.8.1
+rouge-score>=0.1.2
+
+# 其他依赖
+einops>=0.7.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
