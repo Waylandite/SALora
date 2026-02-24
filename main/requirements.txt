@@ -1,0 +1,29 @@
+# SALora Requirements for Code Tasks
+
+# Core dependencies
+torch>=2.0.0
+transformers>=4.35.0
+datasets>=2.14.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# PEFT for verification
+peft>=0.7.0
+
+# For evaluation metrics
+nltk>=3.8
+rouge-score>=0.1.2
+
+# For bilevel optimization - Betty framework
+# Install from AutoLoRA folder:
+# cd ../AutoLoRA/betty && pip install -e .
+
+# Optional: For better performance
+accelerate>=0.24.0
+
+# For visualization (optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# For JSON handling
+# (built-in with Python 3.6+)
